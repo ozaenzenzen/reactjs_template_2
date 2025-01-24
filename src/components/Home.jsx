@@ -6,6 +6,7 @@ import banner1 from "../assets/banner1.png";
 import banner2 from "../assets/banner2.png";
 import banner3 from "../assets/banner3.png";
 import BannerHome from "./shared/BannerHome";
+import MainButton from "./shared/MainButton";
 
 const Home = () => {
   return (
@@ -31,7 +32,7 @@ const Home = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
-              <button className="btn-primary">Register</button>
+              <MainButton title="Register"></MainButton>
             </div>
           </div>
           <BannerHome

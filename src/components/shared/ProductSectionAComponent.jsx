@@ -1,4 +1,5 @@
 import React from "react";
+import MainButton from "./MainButton";
 
 const ProductSectionAComponent = ({src, title, description}) => {
   return (
@@ -14,7 +15,7 @@ const ProductSectionAComponent = ({src, title, description}) => {
           <p className="md:w-3/4 text-sm text-neutralGrey mb-8">
             {description}
           </p>
-          <button className="btn-primary">Learn More</button>
+          <MainButton title="Learn More"></MainButton>
         </div>
       </div>
     </div>

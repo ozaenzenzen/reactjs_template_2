@@ -1,4 +1,5 @@
 import React from "react";
+import MainButton from "./shared/MainButton";
 
 const Newsletter = () => {
   return (
@@ -9,7 +10,7 @@ const Newsletter = () => {
             Caring Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </h2>
           <div className="flex items-center justify-center gap-4">
-            <button className="btn-primary text-white">Get A Demo</button>
+            <MainButton title="Get A Demo"></MainButton>
           </div>
         </div>
       </div>

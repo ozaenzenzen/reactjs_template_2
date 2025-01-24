@@ -1,4 +1,5 @@
 import React from "react";
+import MainButton from "./MainButton";
 
 const BannerHome = ({ src, title, description }) => {
   return (
@@ -14,7 +15,7 @@ const BannerHome = ({ src, title, description }) => {
         <p className="text-neutralGrey text-base mb-8">
           {description}
         </p>
-        <button className="btn-primary">Register</button>
+        <MainButton title="Register"></MainButton>
       </div>
     </div>
   );

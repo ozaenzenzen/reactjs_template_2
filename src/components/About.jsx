@@ -6,6 +6,7 @@ import itemStats2 from "../assets/item_cyan2.png";
 import itemStats3 from "../assets/item_cyan3.png";
 import itemStats4 from "../assets/item_cyan4.png";
 import ItemStatsComponent from "./shared/ItemStatsComponent";
+import MainButton from "./shared/MainButton";
 
 const About = () => {
   return (
@@ -30,7 +31,7 @@ const About = () => {
               nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
-            <button className="btn-primary">Learn More</button>
+            <MainButton title="Learn More"></MainButton>
           </div>
         </div>
       </div>
