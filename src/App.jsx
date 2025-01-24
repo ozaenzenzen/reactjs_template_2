@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Blog from "./components/Blog";
 import Home from "./components/Home";
+import MyFooter from "./components/MyFooter";
 import Navbar from "./components/Navbar";
 import Newsletter from "./components/Newsletter";
 import Product from "./components/Product";
@@ -16,6 +17,7 @@ function App() {
       <Product />
       <Blog />
       <Newsletter />
+      <MyFooter />
     </>
   );
 }
