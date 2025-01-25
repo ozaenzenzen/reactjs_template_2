@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "../assets/logo.png";
+import logo from "../assets/logo3.png";
 import { Link } from "react-scroll";
 
 import { FaXmark } from "react-icons/fa6";
