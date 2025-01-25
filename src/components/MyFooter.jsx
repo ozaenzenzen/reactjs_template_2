@@ -10,15 +10,6 @@ import {
   BsTwitter,
 } from "react-icons/bs";
 
-// import type { CustomFlowbiteTheme } from "flowbite-react";
-import { Button } from "flowbite-react";
-
-const customTheme = {
-  color: {
-    primary: "bg-red-500 hover:bg-red-600",
-  },
-};
-
 const MyFooter = () => {
   return (
     <Footer container color="#FFFFFf">
@@ -45,7 +36,7 @@ const MyFooter = () => {
             <div>
               <Footer.Title title="about" />
               <Footer.LinkGroup col>
-                <Footer.Link href="#">Flowbite</Footer.Link>
+                <Footer.Link href="#">React JS</Footer.Link>
                 <Footer.Link href="#">Tailwind CSS</Footer.Link>
               </Footer.LinkGroup>
             </div>
