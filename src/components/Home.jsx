@@ -1,6 +1,6 @@
 import { Carousel } from "flowbite-react";
 import React from "react";
-import logoAvocade from "../assets/logo.png";
+import logoAvocade from "../assets/logo3.png";
 
 import banner1 from "../assets/banner1.png";
 import banner2 from "../assets/banner2.png";
