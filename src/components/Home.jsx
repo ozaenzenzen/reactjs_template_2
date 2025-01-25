@@ -10,7 +10,7 @@ import MainButton from "./shared/MainButton";
 
 const Home = () => {
   return (
-    <div className="bg-neutralSilver">
+    <div className="bg-neutralSilver" id="home">
       <div className="px-4 lg:px-4 max-w-screen-2xl mx-auto min-h-screen h-screen">
         <Carousel
           onSlideChange={(index) => console.log("onSlideChange()", index)}

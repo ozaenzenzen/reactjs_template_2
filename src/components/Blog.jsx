@@ -14,7 +14,7 @@ const Blog = () => {
     { id: 3, title: "3 Caring Lorem ipsum dolor sit amet", image: images3 },
   ];
   return (
-    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12">
+    <div className="px-4 lg:px-14 max-w-screen-2xl mx-auto my-12" id="faq">
       <div className="text-center md:w-1/2 mx-auto ">
         <h2 className="text-4xl text-neutralDGrey font-semibold mb-4 ">
           Caring Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
