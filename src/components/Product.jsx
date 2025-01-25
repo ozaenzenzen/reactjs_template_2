@@ -10,6 +10,8 @@ import itemStats3 from "../assets/item_cyan3.png";
 import itemStats4 from "../assets/item_cyan4.png";
 
 import arrowRight from "../assets/arrow_right.png";
+// import ArrowRight2 from "../assets/arrow_right2.svg";
+// import { ReactComponent as ArrowRight2 } from "../assets/arrow_right2.svg";
 
 import ItemStatsComponent from "./shared/ItemStatsComponent";
 import ProductSectionAComponent from "./shared/ProductSectionAComponent";
@@ -78,17 +80,34 @@ const Product = () => {
                     className="cursor-pointer w-[80px]"
                   />
 
-                  <div className="flex items-center gap-8">
+                  <div className="flex items-center gap-8 ">
                     <a
                       href="/"
-                      className="font-bold text-brandPrimary hover:text-neutral-700 inline-flex pr-8"
+                      className="font-bold text-brandPrimary hover:text-neutral-700"
                     >
-                      Meet All Customers{" "}
-                      <img
+                      Meet All Customers {/* <ArrowRight2 /> */}
+                      {/* <img
                         src={arrowRight}
                         alt=""
                         className="cursor-pointer w-[20px]"
-                      />
+                      /> */}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="20px"
+                        height="20px"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        className="inline-block ml-2"
+                      >
+                        <path
+                          d="M4 12H20M20 12L14 6M20 12L14 18"
+                          stroke="#4caf4f"
+                          stroke-width="1.5"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          fill="#4caf4f"
+                        />
+                      </svg>
                     </a>
                   </div>
                 </div>
